@@ -1,0 +1,7 @@
+{
+    "thankyou": {
+        "id": "conclude01",
+        "message": "Thank you! We'll let you know when there are new events you may be interested in!",
+        "type": "thankyou"
+    }
+}

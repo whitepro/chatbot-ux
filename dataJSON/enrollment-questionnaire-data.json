@@ -1,0 +1,57 @@
+{
+    "1": {
+        "sequence": 1,
+        "question": "May I collect your activity preferences so the YMCA can learn your interests for future events?",
+        "question-abbr": "Permission",
+        "type": "YesNo"
+    },
+    "2": {
+        "sequence": 2,
+        "question": "Gender?",
+        "question-abbr": "Gender",
+        "type": "singleselect",
+        "options": ["Male", "Female", "Other"]
+    },
+    "3": {
+        "sequence": 3,
+        "question": "Which of the following YMCA activities would you like to participate in?",
+        "question-abbr": "Interests",
+        "type": "multiselect",
+        "options": ["Cooking Class", "Exercise", "Line Dance", "Reading Club", "Seniorcise", "Silver Sneakers Classic", "Shallow Water Exercise", "Tai Chi", "Yoga"]
+    },
+    "4": {
+        "sequence": 4,
+        "question": "What days are you available to participate in YMCA activities?",
+        "question-abbr": "Days Preference",
+        "type": "multiselect",
+        "options": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+    },
+    "5": {
+        "sequence": 5,
+        "question": "What is your Zip Code?",
+        "question-abbr": "Zip Code",
+        "type": "number",
+        "label": "Zip Code"
+    },
+    "6": {
+        "sequence": 6,
+        "question": "How old are you?",
+        "question-abbr": "Age",
+        "type": "number",
+        "label": "Age"
+    },
+    "7": {
+        "sequence": 7,
+        "question": "How often would you like to receive activity reminders?",
+        "question-abbr": "Reminders Frequency",
+        "type": "singleselect",
+        "options": ["Daily", "Weekly", "Monthly"]
+    },
+    "8": {
+        "sequence": 8,
+        "question": "How far in advance would you like reminders?",
+        "question-abbr": "Reminders Preference",
+        "type": "singleselect",
+        "options": ["Evening before event", "Morning of event", "1 week before event", "2 weeks before event"]
+    }
+}

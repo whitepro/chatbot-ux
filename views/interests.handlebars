@@ -1,0 +1,50 @@
+<div class="container">
+    <div class="row">
+        <div class="col s12">
+          <h3 class="text-center">{{user.first_name}}, What activities are you interested in?</h3>
+        </div>
+    </div>
+    <div class="row">
+        <p class="subtitle">Press on activities you are interested in.</p>
+        <div id="hobbiesList">
+            {{#each chosenHobbies }}
+            <div class="col s6">
+                <a class="interestItem" id={{name}} data-id="{{name}}" style="background-image: url({{imageUrl}})">
+                    <header class="clicked">
+                        <h2>
+                          {{name}}
+                      </h2>
+                    </header>
+                </a>
+            </div>
+            {{/each}}
+            {{#each unchosenHobbies }}
+            <div class="col s6">
+                <a class="interestItem" id={{name}} data-id="{{name}}" style="background-image: url({{imageUrl}})">
+                    <header>
+                        <h2>
+                          {{name}}
+                      </h2>
+                    </header>
+                </a>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12">
+            <div class="text-center">
+                <a class="waves-effect waves-light btn-large btn-full-width done" data-userid="{{user._id}}">Next</a>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-btn">
+        <a class="waves-effect waves-light btn-large btn-full-width orange darken-3" >Press to see more!</a>
+    </div>
+
+</div>
+
+
+
+
+<script type="text/javascript" src="/js/enrollment.js"></script>

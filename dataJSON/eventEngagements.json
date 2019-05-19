@@ -1,0 +1,27 @@
+{
+    "enrollment": {
+        "week-options": {
+            "id": "weekQ1",
+            "question": "Please press on a day to see events and activities happening near you.",
+            "question_abbr": "week-events",
+            "type": "singleselect",
+            "domain": "events"
+        }
+    },
+    "generalDialogue": {
+        "week-options": {
+            "id": "genweekQ1",
+            "question": "Please press on a day to see events and activities happening near you.",
+            "question_abbr": "week-events",
+            "type": "singleselect",
+            "domain": "events"
+        },
+        "continue": {
+            "id": "gen_continue",
+            "question": "Would you like to add additional events?",
+            "question_abbr": "events continue",
+            "type": "yesno",
+            "domain": "events"
+        }
+    }
+}

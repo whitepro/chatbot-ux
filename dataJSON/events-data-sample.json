@@ -1,0 +1,324 @@
+{
+  "weekOptions": [
+    {
+      "id": "events1",
+      "date": "Monday - May 6th",
+      "scheduled_date": "2019-04-22",
+      "sum": 2
+    },
+    {
+      "id": "events2",
+      "date": "Tuesday - May 7th",
+      "sum": 2,
+      "scheduled_date": "2019-04-23"
+    },
+    {
+      "id": "events3",
+      "date": "Wednesday - May 8th",
+      "sum": 3,
+      "scheduled_date": "2019-04-24"
+    },
+    {
+      "id": "events4",
+      "date": "Thursday - May 9th",
+      "sum": 2,
+      "scheduled_date": "2019-04-25"
+    }
+  ],
+  "weekBucket": [
+    {
+      "id": "events1",
+      "date": "Monday - May 6th",
+      "scheduled_date": "2019-04-22",
+      "sum": 2,
+      "events": [
+        {
+          "id": "ymcayoga01",
+          "title": "Yoga",
+          "scheduled_date": "2019-04-22T10:00:00.000Z",
+          "end_date": "2019-04-22T11:00:00.000Z",
+          "description": "Meditative Yoga with instructor John Michaels",
+          "zipcode": "77021",
+          "hobby": "Yoga",
+          "admin": {
+            "name": "YMCA",
+            "imageUrl": "https://s3.amazonaws.com/bloomhealth/images/ymca-logo.png"
+          }
+        },
+        {
+          "id": "bakermeal02",
+          "title": "Noon-Time Meal",
+          "scheduled_date": "2019-04-22T12:00:00.000Z",
+          "end_date": "2019-04-22T14:00:00.000Z",
+          "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+          "zipcode": "77021",
+          "hobby": "Other",
+          "admin": {
+            "name": "Baker Ripley",
+            "imageUrl": "https://s3.amazonaws.com/bloomhealth/images/baker_ripley_logo.png"
+          }
+        },
+        {
+          "id": "hcceducation03",
+          "title": "iPAD Fundamentals for Seniors Citizens (65+)",
+          "scheduled_date": "2019-04-22T12:00:00.000Z",
+          "end_date": "2019-04-22T14:00:00.000Z",
+          "description": "Apple’s iPad has sold millions of units since its debut in 2010. It has spawned many other brands of tablet computers and event Apple has produced several versions. In this class your instructor will go through the basic operation of the iPad, how to use the multitouch display, explore settings, change font sizes, access the internet, use Safari, Take and Save pictures and videos, and introduce you to the wonderful world of Apps!",
+          "zipcode": "77051",
+          "hobby": "Technology",
+          "admin": {
+            "name": "Houston Community College",
+            "imageUrl": "https://s3.amazonaws.com/bloomhealth/images/hcc_logo_transparent.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "events2",
+      "date": "Tuesday - May 7th",
+      "sum": 2,
+      "scheduled_date": "2019-04-23",
+      "events": [
+        {
+          "id": "ymcalinedance01",
+          "title": "Line Dance",
+          "scheduled_date": "2019-04-23T16:00:00.000Z",
+          "end_date": "2019-04-23T18:00:00.000Z",
+          "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+          "zipcode": "77021",
+          "hobby": "Dancing",
+          "admin": {
+            "name": "YMCA",
+            "imageUrl": "https://s3.amazonaws.com/bloomhealth/images/ymca-logo.png"
+          }
+        },
+        {
+          "id": "bakergames02",
+          "title": "Board Games",
+          "scheduled_date": "2019-04-23T11:00:00.000Z",
+          "end_date": "2019-04-23T13:00:00.000Z",
+          "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+          "zipcode": "77021",
+          "hobby": "Games",
+          "admin": {
+            "name": "Baker Ripley",
+            "imageUrl": "https://s3.amazonaws.com/bloomhealth/images/baker_ripley_logo.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "events3",
+      "date": "Wednesday - May 8th",
+      "sum": 3,
+      "scheduled_date": "2019-04-24",
+      "events": [
+        {
+          "id": "uohedurobots01",
+          "title": "Robots in the Doctor's Office",
+          "scheduled_date": "2019-04-23T10:00:00.000Z",
+          "end_date": "2019-04-23T12:00:00.000Z",
+          "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+          "zipcode": "77021",
+          "hobby": "Education",
+          "admin": {
+            "name": "University of Houston",
+            "imageUrl": "https://s3.amazonaws.com/bloomhealth/images/univ_of_houston_logo_transparent.png"
+          }
+        },
+        {
+          "id": "baker2991918",
+          "title": "Noon-Time Meal",
+          "scheduled_date": "2019-04-23T11:00:00.000Z",
+          "end_date": "2019-04-23T13:00:00.000Z",
+          "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+          "zipcode": "77021",
+          "hobby": "Other",
+          "admin": {
+            "name": "Baker Ripley",
+            "imageUrl": "https://s3.amazonaws.com/bloomhealth/images/baker_ripley_logo.png"
+          }
+        },
+        {
+          "id": "ymca388991881",
+          "title": "Pool Cardio",
+          "scheduled_date": "2019-04-23T16:00:00.000Z",
+          "end_date": "2019-04-23T18:00:00.000Z",
+          "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+          "zipcode": "77021",
+          "hobby": "Fitness",
+          "admin": {
+            "name": "YMCA",
+            "imageUrl": "https://s3.amazonaws.com/bloomhealth/images/ymca-logo.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "events4",
+      "date": "Thursday - May 9th",
+      "sum": 2,
+      "scheduled_date": "2019-04-25",
+      "events": [
+        {
+          "id": "ymcagarden277181",
+          "title": "Gardening",
+          "scheduled_date": "2019-04-24T16:00:00.000Z",
+          "end_date": "2019-04-23T18:00:00.000Z",
+          "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+          "zipcode": "77021",
+          "hobby": "Gardening",
+          "admin": {
+            "name": "YMCA",
+            "imageUrl": "https://s3.amazonaws.com/bloomhealth/images/ymca-logo.png"
+          }
+        },
+        {
+          "id": "bakermeal83881",
+          "title": "Noon-Time Meal",
+          "scheduled_date": "2019-04-23T11:00:00.000Z",
+          "end_date": "2019-04-24T13:00:00.000Z",
+          "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+          "zipcode": "77021",
+          "hobby": "Other",
+          "admin": {
+            "name": "Baker Ripley",
+            "imageUrl": "https://s3.amazonaws.com/bloomhealth/images/baker_ripley_logo.png"
+          }
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "ymcayoga01",
+      "title": "Yoga",
+      "scheduled_date": "2019-04-22T10:00:00.000Z",
+      "end_date": "2019-04-22T11:00:00.000Z",
+      "description": "Meditative Yoga with instructor John Michaels",
+      "zipcode": "77021",
+      "hobby": "Yoga",
+      "admin": {
+        "name": "YMCA",
+        "imageUrl": "https://s3.amazonaws.com/bloomhealth/images/ymca-logo.png"
+      }
+    },
+    {
+      "id": "bakermeal02",
+      "title": "Noon-Time Meal",
+      "scheduled_date": "2019-04-22T12:00:00.000Z",
+      "end_date": "2019-04-22T14:00:00.000Z",
+      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+      "zipcode": "77021",
+      "hobby": "Other",
+      "admin": {
+        "name": "Baker Ripley",
+        "imageUrl": "https://s3.amazonaws.com/bloomhealth/images/baker_ripley_logo.png"
+      }
+    },
+    {
+      "id": "hcceducation03",
+      "title": "iPAD Fundamentals for Seniors Citizens (65+)",
+      "scheduled_date": "2019-04-22T12:00:00.000Z",
+      "end_date": "2019-04-22T14:00:00.000Z",
+      "description": "Apple’s iPad has sold millions of units since its debut in 2010. It has spawned many other brands of tablet computers and event Apple has produced several versions. In this class your instructor will go through the basic operation of the iPad, how to use the multitouch display, explore settings, change font sizes, access the internet, use Safari, Take and Save pictures and videos, and introduce you to the wonderful world of Apps!",
+      "zipcode": "77051",
+      "hobby": "Technology",
+      "admin": {
+        "name": "Houston Community College",
+        "imageUrl": "https://s3.amazonaws.com/bloomhealth/images/hcc_logo_transparent.png"
+      }
+    },
+    {
+      "id": "ymcalinedance01",
+      "title": "Line Dance",
+      "scheduled_date": "2019-04-23T16:00:00.000Z",
+      "end_date": "2019-04-23T18:00:00.000Z",
+      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+      "zipcode": "77021",
+      "hobby": "Dancing",
+      "admin": {
+        "name": "YMCA",
+        "imageUrl": "https://s3.amazonaws.com/bloomhealth/images/ymca-logo.png"
+      }
+    },
+    {
+      "id": "bakergames02",
+      "title": "Board Games",
+      "scheduled_date": "2019-04-23T11:00:00.000Z",
+      "end_date": "2019-04-23T13:00:00.000Z",
+      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+      "zipcode": "77021",
+      "hobby": "Games",
+      "admin": {
+        "name": "Baker Ripley",
+        "imageUrl": "https://s3.amazonaws.com/bloomhealth/images/baker_ripley_logo.png"
+      }
+    },
+    {
+      "id": "uohedurobots01",
+      "title": "Robots in the Doctor's Office",
+      "scheduled_date": "2019-04-23T10:00:00.000Z",
+      "end_date": "2019-04-23T12:00:00.000Z",
+      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+      "zipcode": "77021",
+      "hobby": "Education",
+      "admin": {
+        "name": "University of Houston",
+        "imageUrl": "https://s3.amazonaws.com/bloomhealth/images/univ_of_houston_logo_transparent.png"
+      }
+    },
+    {
+      "id": "baker2991918",
+      "title": "Noon-Time Meal",
+      "scheduled_date": "2019-04-23T11:00:00.000Z",
+      "end_date": "2019-04-23T13:00:00.000Z",
+      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+      "zipcode": "77021",
+      "hobby": "Other",
+      "admin": {
+        "name": "Baker Ripley",
+        "imageUrl": "https://s3.amazonaws.com/bloomhealth/images/baker_ripley_logo.png"
+      }
+    },
+    {
+      "id": "ymca388991881",
+      "title": "Pool Cardio",
+      "scheduled_date": "2019-04-23T16:00:00.000Z",
+      "end_date": "2019-04-23T18:00:00.000Z",
+      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+      "zipcode": "77021",
+      "hobby": "Fitness",
+      "admin": {
+        "name": "YMCA",
+        "imageUrl": "https://s3.amazonaws.com/bloomhealth/images/ymca-logo.png"
+      }
+    },
+    {
+      "id": "ymcagarden277181",
+      "title": "Gardening",
+      "scheduled_date": "2019-04-24T16:00:00.000Z",
+      "end_date": "2019-04-23T18:00:00.000Z",
+      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+      "zipcode": "77021",
+      "hobby": "Gardening",
+      "admin": {
+        "name": "YMCA",
+        "imageUrl": "https://s3.amazonaws.com/bloomhealth/images/ymca-logo.png"
+      }
+    },
+    {
+      "id": "bakermeal83881",
+      "title": "Noon-Time Meal",
+      "scheduled_date": "2019-04-23T11:00:00.000Z",
+      "end_date": "2019-04-24T13:00:00.000Z",
+      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+      "zipcode": "77021",
+      "hobby": "Other",
+      "admin": {
+        "name": "Baker Ripley",
+        "imageUrl": "https://s3.amazonaws.com/bloomhealth/images/baker_ripley_logo.png"
+      }
+    }
+  ]
+}

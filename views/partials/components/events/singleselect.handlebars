@@ -1,0 +1,18 @@
+<div id="{{id}}">
+    <div class="row">
+        {{> logosection}}
+        <div class="col s12">
+            <div class="from-them">
+                <p class="question">{{question}}</p>
+            </div>
+        </div>
+    </div>
+    <div class="row submit-section">
+        {{#each options}}
+        <div class="col s12 m6">
+            <a class="waves-effect waves-light btn-large btn-full-width btn-list resp-option" data-type="events" data-eventid="{{this.id}}" data-value="{{this.date}}" data-qid="{{../id}}">{{this.date}}</a>
+        </div>
+        {{/each}}
+    </div>
+    <div class="submit-section"></div>
+</div>

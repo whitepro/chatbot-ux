@@ -1,0 +1,29 @@
+<div id="{{sequence}}">
+    <div class="row">
+        {{> logosection}}
+        <div class="col s12">
+            <div class="from-them">
+                <p class="question">{{question}}</p>
+            </div>
+        </div>
+    </div>
+    <div class="col s12">
+        <form id="form" data-question="{{sequence}}" class="form-{{sequence}}">
+            <div class="row">
+                <div class="input-field col s12">
+                  <input placeholder="Tap here" id="number-{{sequence}}" type="number" pattern="[0-9]*">
+                </div>
+            </div>
+            <div class="row submit-section">
+                <div class="col s4">
+                    <img src="/images/finger-point.svg" class="responsive-img pointer hide">
+                </div>
+                <div class="col s8">
+                    <div class="text-center">
+                        <a class="waves-effect waves-light btn-large btn-full-width submitBtn form-submit hide" data-qid="{{sequence}}">Submit</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
