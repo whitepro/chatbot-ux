@@ -1,7 +1,8 @@
 # chatbot-ux
 Handlebars front-end for chatbot user experience
 
-####Directory Structure
+#### Directory Structure
+```
 ├── index.js
 ├── package.json
 ├── public
@@ -21,9 +22,9 @@ Handlebars front-end for chatbot user experience
         └── logoSection.handlebars
         └── multiselect.handlebars
     └── enrollment.handlebars
+```
 
-
-###Instructions
+### Instructions
 1. Install dependencies
 ```
 $ npm install
