@@ -17,6 +17,7 @@ function renderQuestion(component) {
 function initiateBot() {
   $.get("/bot/questions/init", function(res) {
     renderQuestion(res);
+    scrollDown(1)
   });
 }
 
@@ -61,11 +62,17 @@ function disableQuestion(id, answer) {
   const newElemPos = $(`#botQuestions`).offset().top;
   section.remove();
   if(answer){
-      const rowElem = $("<div>", { class: "row" });
-      const divElem = $("<div>", { class: "from-me" });
-      divElem.append(`<p class="res_display">${answer}</p>`)
-      rowElem.append(divElem);
-      $("#botQuestions").append(rowElem);
+        let que = jsondata[id].question
+        const rowElemQue = $("<div>", { class: "row" });
+        const divElemQue = $("<div>", { class: "from-them" });
+        divElemQue.append(`<p class="res_display">${que}</p>`)
+        rowElemQue.append(divElemQue);
+        $("#botQuestions").append(rowElemQue);
+      const rowElemAns = $("<div>", { class: "row" });
+      const divElemAns = $("<div>", { class: "from-me" });
+      divElemAns.append(`<p class="res_display">${answer}</p>`)
+      rowElemAns.append(divElemAns);
+      $("#botQuestions").append(rowElemAns);
       $("#botQuestions").css("marginBottom", newElemPos);
   }
 }
