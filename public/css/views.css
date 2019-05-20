@@ -38,7 +38,6 @@
  */
 
 p.question {
-  font-size: 1.95rem;
   margin: 0 auto;
 }
 .card .card-content {
@@ -83,18 +82,27 @@ img.event-card-img {
 }
 
 .event-card .card .card-content .card-title {
-    font-size: 24px;
-    text-align: center;
-    padding: 5px;
+    font-size: 18px;
+    text-align: left;
+    color: green;
     margin-bottom: 0;
     font-weight: 400;
 }
 
 .event-card .card .card-content .card-time{
-    font-size: 18px;
-    text-align: center;
-    margin: 0 auto;
-    font-weight: 300;
+  font-size: 18px;
+  text-align: left;
+  margin: 0 auto;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.event-card .card .card-content .card-org{
+  font-size: 16px;
+  text-align: left;
+  margin: 5px auto;
+  font-weight: 300;
+  line-height: normal;
 }
 
 /* ========MATERIALIZE Edits END ============ */
