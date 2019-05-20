@@ -42,7 +42,9 @@ p.question {
   margin: 0 auto;
 }
 .card .card-content {
-  padding: 15px;
+  width: 60%;
+  padding: 5px;
+  float:left;
 }
 
 .mobile-container {
@@ -69,12 +71,15 @@ p.res_display {
 }
 
 img.event-card-img {
-    border-top-right-radius: 20px!important;
-    border-top-left-radius: 20px!important;
+    border-top-right-radius: 2px!important;
+    border-top-left-radius: 2px!important;
 }
 
 .event-card .card {
-    border-radius: 20px;
+    border-radius: 2px;
+    position:relative;
+	  padding:10px 20px;
+    float: left;
 }
 
 .event-card .card .card-content .card-title {
@@ -381,8 +386,6 @@ font-size: 100px;
 }
 
 .event-card .date-title {
-    text-align: center;
-    font-size: 1.85rem;
     font-weight: 500;
 }
 
