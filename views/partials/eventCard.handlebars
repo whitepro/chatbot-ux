@@ -2,26 +2,28 @@
     <div class="row">
         <div class="col s12">
             <img src="/images/favicon.png" class="responsive-img bloom-icon" />
+            Bloom
         </div>
         <div class="col s12 event-card">
             <div class="from-them">
-                <p>Please press on an event to register and receive reminders:</p>
                 <p class="date-title">{{date}}</p>
+                <p>We think you might enjoy these events coming up!</p>
+            </div>
                 {{#each events}}
-                    <div class="col s12">
-                        <div class="card">
-                            <div class="success-overlay hide"><i class="material-icons">check_circle_outline</i></div>
-                            <div class="card-image">
-                                <img src="{{admin.imageUrl}}" class="event-card-img" >
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title">{{title}}</span>
-                                <p class="card-time">{{timeHourFormat scheduled_date}} - {{timeHourFormat end_date}}</p>
-                            </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="{{admin.imageUrl}}" class="event-card-img" >
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">{{title}}</span>
+                            <p class="card-time">{{timeHourFormat scheduled_date}} - {{timeHourFormat end_date}}</p>
+                        </div>
+                        <div class="col s12">
+                            <a class="waves-effect waves-light btn text-center resp-option green card-register" id="register">Register</a>
+                            <a class="waves-effect waves-light btn text-center resp-option green" style="float:right;">See Details</a>
                         </div>
                     </div>
                 {{/each}}
-            </div>
         </div>
     </div>
     <div class="row submit-section">
