@@ -1,4 +1,6 @@
 .card .card-image img {
-    width: 70%;
+    width: 40%;
+    padding: 5px;
     margin: 0 auto;
+    float: left;
 }
