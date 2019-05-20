@@ -6,21 +6,28 @@
         </div>
         <div class="col s12 event-card">
             <div class="from-them">
-                <p class="date-title">{{date}}</p>
-                <p>We think you might enjoy these events coming up!</p>
+                <p class="question date-title">{{date}}</p>
+                <p class="question">We think you might enjoy these events coming up!</p>
             </div>
                 {{#each events}}
                     <div class="card">
-                        <div class="card-image">
-                            <img src="{{admin.imageUrl}}" class="event-card-img" >
+                        <div class="row">
+                            <div class="card-image">
+                                <img src="{{admin.imageUrl}}" class="event-card-img" >
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">{{title}}</span>
+                                <p class="card-time">{{timeHourFormat scheduled_date}} - {{timeHourFormat end_date}}</p>
+                                <p class="card-org">{{admin.name}}</p>
+                            </div>
                         </div>
-                        <div class="card-content">
-                            <span class="card-title">{{title}}</span>
-                            <p class="card-time">{{timeHourFormat scheduled_date}} - {{timeHourFormat end_date}}</p>
-                        </div>
-                        <div class="col s12">
-                            <a class="waves-effect waves-light btn text-center resp-option green card-register" id="register">Register</a>
-                            <a class="waves-effect waves-light btn text-center resp-option green" style="float:right;">See Details</a>
+                        <div class="submit-section">
+                            <div class="col s6">
+                                <a class="waves-effect waves-light btn text-center resp-option green card-register" id="register">Register</a>
+                            </div>
+                            <div class="col s6">
+                                <a class="waves-effect waves-light btn text-center resp-option green" style="float:right;">See Details</a>
+                            </div>
                         </div>
                     </div>
                 {{/each}}
